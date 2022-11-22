@@ -1,0 +1,109 @@
+header.header {
+  nav {
+    ul {
+      li {
+        a {
+          @extend .fs-6;
+          @extend .fw-semibold;
+        }
+      }
+    }
+  }
+
+  .navbar {
+    &-buttons {
+      @extend .my-5;
+      @extend .my-lg-2;
+      @extend .ms-auto;
+      @extend .d-flex;
+      @extend .justify-content-center;
+
+      .btn {
+        @extend .fs-6;
+        @extend .d-flex;
+        @extend .align-items-center;
+        @extend .ms-2;
+        @extend .px-3;
+        @extend .py-2;
+
+        i[class^="fa-"] {
+          @extend .me-2;
+        }
+
+        &.btn-outline-secondary {
+          i[class^="fa-"] {
+            &:after {
+              content: "";
+              @extend .border-end;
+              @extend .ms-3;
+              @extend .py-2;
+              @extend .border-secondary;
+              @extend .border-opacity-25;
+            }
+          }
+        }
+
+        & > div {
+          line-height: $font-size-base * 1.2;
+
+          span,
+          i {
+            @extend .d-block;
+          }
+
+          i {
+            font-size: $font-size-base * 0.8;
+            opacity: 0.6;
+          }
+        }
+      }
+    }
+
+    &-toggler {
+      @extend .py-2;
+      @extend .px-3;
+
+      &[aria-expanded="true"] {
+        .fa-solid {
+          @extend .fa-times;
+        }
+      }
+
+      &[aria-expanded="false"] {
+        .fa-solid {
+          @extend .fa-bars;
+        }
+      }
+    }
+
+    &-collapse {
+      @include media-breakpoint-down(lg) {
+        text-align: center;
+
+        .dropdown-menu {
+          margin: $spacer * 1.5 auto;
+          max-width: 20rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+// .navbar-buttons[data-mkare="tab"] {
+//   display: none;
+// }
+
+// i.fa-regular
+// i[class="fa-regular"]
+
+// :checked,
+// :active,
+// :focus,
+// :hover {
+//   outline: none;
+// }
+
+// [title~="flower"] {
+//   border: 5px solid yellow;
+// }

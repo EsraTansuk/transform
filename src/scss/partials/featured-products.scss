@@ -1,0 +1,29 @@
+.featured-products {
+  .nav {
+    &-link {
+      border: none;
+      border-bottom: $border-width * 2 solid transparent;
+      color: $gray-500;
+      @extend .mx-3;
+
+      &.active {
+        border-bottom-color: $primary;
+        color: $primary;
+      }
+
+      &:hover {
+        color: $primary;
+        border-bottom-color: rgba($primary, 0.75);
+      }
+    }
+  }
+}
+
+.product-1 {
+  margin-left: 38%;
+  margin-bottom: 5%;
+
+  .icons {
+
+  }
+}

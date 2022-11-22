@@ -1,0 +1,397 @@
+.circle-a {
+  margin-top: 0;
+  height: 790px;
+  background: radial-gradient(#eca343, #8f94db, #cc8989);
+  overflow: hidden;
+  position: relative;
+}
+
+.b-one {
+  width: 100px;
+  height: 100px;
+  background-color: $purple;
+  opacity: 0.5;
+  border-radius: 50%;
+  position: absolute;
+  left: 405px;
+  bottom: 0px;
+  animation: MoveUpDown 5s linear infinite;
+}
+
+.b-two {
+  width: 150px;
+  height: 150px;
+  background-color: $purple;
+  opacity: 0.7;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 250px;
+  left: 450px;
+  animation: MoveUpDownTwo 9s linear infinite;
+}
+
+.b-three {
+  width: 120px;
+  height: 120px;
+  background-color: $purple;
+  opacity: 0.2;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 250px;
+  left: 300px;
+  animation: MoveUpDownThree 5s linear infinite;
+}
+
+.b-four {
+  width: 80px;
+  height: 80px;
+  background-color: $purple;
+  opacity: 0.4;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  animation: MoveUpDownFour 15s linear infinite;
+}
+
+.b-five {
+  width: 50px;
+  height: 50px;
+  background-color: $purple;
+  opacity: 0.9;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 200px;
+  right: 0;
+  animation: MoveUpDownFive 8s linear infinite;
+}
+
+.b-six {
+  width: 250px;
+  height: 250px;
+  background-color: $purple;
+  opacity: 0.8;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 250px;
+  right: 200px;
+  animation: MoveUpDownSix 7s linear infinite;
+}
+
+.b-seven {
+  width: 250px;
+  height: 250px;
+  background-color: $purple;
+  opacity: 0.3;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 450px;
+  right: 0;
+  animation: MoveUpDownSeven 6s linear infinite;
+}
+
+.b-eight {
+  width: 75px;
+  height: 75px;
+  background-color: $purple;
+  opacity: 0.4;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 350px;
+  animation: MoveUpDownEight 11s linear infinite;
+}
+
+.b-nine {
+  width: 45px;
+  height: 45px;
+  background-color: $purple;
+  opacity: 0.7;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 450px;
+  animation: MoveUpDownNine 12s linear infinite;
+}
+
+.b-ten {
+  width: 150px;
+  height: 150px;
+  background-color: $purple;
+  opacity: 0.6;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  animation: MoveUpDownTen 14s linear infinite;
+}
+
+.b-eleven {
+  width: 150px;
+  height: 150px;
+  background-color: $purple;
+  opacity: 0.6;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  animation: MoveUpDownEleven 14s linear infinite;
+}
+
+.b-twelve {
+  width: 170px;
+  height: 170px;
+  background-color: $purple;
+  opacity: 0.3;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  animation: MoveUpDownTwelve 19s linear infinite;
+}
+
+@keyframes b-one {
+  from {
+    top: 0;
+    left: 0;
+  }
+  to {
+    top: 400px;
+    left: 100px;
+  }
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    bottom: 25px;
+  }
+  50% {
+    bottom: 600px;
+  }
+}
+
+@keyframes MoveUpDownTwo {
+  0%,
+  100% {
+    left: 23%;
+    bottom: 25px;
+  }
+  50% {
+    bottom: 550px;
+  }
+}
+
+@keyframes MoveUpDownThree {
+  0%,
+  100% {
+    left: 30%;
+    bottom: 25px;
+  }
+  50% {
+    bottom: 450px;
+  }
+}
+
+@keyframes MoveUpDownFour {
+  0%,
+  100% {
+    bottom: 25px;
+    left: 35%;
+  }
+  50% {
+    bottom: 620px;
+  }
+}
+
+@keyframes MoveUpDownFive {
+  0%,
+  100% {
+    left: 40%;
+    bottom: 25px;
+  }
+  50% {
+    bottom: 540px;
+  }
+}
+
+@keyframes MoveUpDownSix {
+  0%,
+  100% {
+    left: 50%;
+    bottom: 25px;
+  }
+  50% {
+    bottom: 520px;
+  }
+}
+
+@keyframes MoveUpDownSeven {
+  0%,
+  100% {
+    bottom: 25px;
+    left: 65%;
+  }
+  50% {
+    bottom: 550px;
+  }
+}
+
+@keyframes MoveUpDownEight {
+  0%,
+  100% {
+    bottom: 25px;
+    left: 70%;
+  }
+  50% {
+    bottom: 730px;
+  }
+}
+
+@keyframes MoveUpDownNine {
+  0%,
+  100% {
+    bottom: 25px;
+    left: 75%;
+  }
+  50% {
+    bottom: 475px;
+  }
+}
+
+@keyframes MoveUpDownTen {
+  0%,
+  100% {
+    bottom: 25px;
+    left: 37%;
+  }
+  50% {
+    bottom: 640px;
+  }
+}
+
+@keyframes MoveUpDownEleven {
+  0%,
+  100% {
+    bottom: 25px;
+    left: 60%;
+  }
+  50% {
+    bottom: 600px;
+  }
+}
+
+@keyframes MoveUpDownTwelve {
+  0%,
+  100% {
+    bottom: 25px;
+    left: 43%;
+  }
+  50% {
+    bottom: 460px;
+  }
+}
+
+//Rotate Animation
+
+.square-a {
+  margin-top: 0;
+  height: 800px;
+  background-image: linear-gradient($purple, $pink, $cream);
+  overflow: hidden;
+  margin-bottom: 10%;
+}
+
+.s-one {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient($yellow, $cream);
+  margin-top: 4%;
+  animation: myAnimation 5s infinite;
+}
+
+.s-two {
+  width: 120px;
+  height: 120px;
+  background: linear-gradient($yellow, $cream);
+  margin-top: 0;
+  margin-left: 100px;
+  animation: myAnimation 5s infinite;
+}
+
+.s-three {
+  width: 140px;
+  height: 140px;
+  background: linear-gradient($yellow, $cream);
+  margin-top: 0;
+  margin-left: 220px;
+  animation: myAnimation 5s infinite;
+}
+
+.s-four {
+  width: 160px;
+  height: 160px;
+  background: linear-gradient($yellow, $cream);
+  margin-top: 0;
+  margin-left: 360px;
+  animation: myAnimation 5s infinite;
+}
+
+.s-five {
+  width: 180px;
+  height: 180px;
+  background: linear-gradient($yellow, $cream);
+  margin-top: 0;
+  margin-left: 520px;
+  animation: myAnimation 5s infinite;
+}
+
+@keyframes myAnimation {
+  50% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.product-1:hover{
+  .icons{
+    display: block;
+  }
+
+  .circle-i {
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: orange;
+    border-radius: 50%;
+    margin: 3%;
+
+    i {
+      font-size: xx-large;
+      padding-top: 15%;
+    }
+  }
+}
+
+.product-1 {
+  .card {
+    overflow: hidden;
+
+    .animated-icons {
+      transform: translateX(250%);
+      position: absolute;
+      top: 10%;
+    }
+
+    &:hover {
+      .animated-icons {
+        transform: translateX(160%);
+        transition: transform 0.6s cubic-bezier(0.76, 0, 0.24, 1);
+      }
+
+    }
+  }
+}

@@ -1,0 +1,29 @@
+footer.footer {
+  background-color: $primary;
+  @extend .bg-primary-gradient-stripes;
+  padding: calc($spacer / 4) 0;
+
+  .nav {
+    &-link {
+      color: $cream;
+      &:hover {
+        color: $white;
+      }
+    }
+
+    &.social-media {
+      @extend .ms-auto;
+      @extend .fs-4;
+
+    }
+  }
+
+  .social-media,
+  .newsletter {
+    min-width: 25rem;
+
+    @include media-breakpoint-down(md) {
+      min-width: 0;
+    }
+  }
+}

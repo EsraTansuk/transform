@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <main>
+      <!-- reusable components -->
+      <%= require('html-loader!../partials/header-alt.html').default %>
+      <!--
+        infinite animation
+        background gradient linear gradient
+        background gradient radial gradient
+
+        //--------------------------------------------------
+
+        translate animation
+        Sayfanın içinde hiç görünmeyen bir elementin translateX ile animasyonu
+        checkbox checked
+
+        //--------------------------------------------------
+        infinite animation
+        rotate animation
+      --->
+      <section>
+        <div class="square animate-ltr"></div>
+        <div class="circle animate-ltr"></div>
+      </section>
+      <%= require('html-loader!../partials/footer.html').default %>
+    </main>
+  </body>
+</html>

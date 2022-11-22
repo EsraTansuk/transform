@@ -1,0 +1,99 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+</head>
+
+<body>
+  <main>
+    <!-- reusable components -->
+    <%= require('html-loader!../partials/header-alt.html').default %>
+      <h3 class="d-flex justify-content-center">Infinite Animation </h3>
+      <div class="container">
+        <div class="row">
+          <div class="circle-a">
+            <div class="b-one"></div>
+            <div class="b-two"></div>
+            <div class="b-three"></div>
+            <div class="b-four"></div>
+            <div class="b-five"></div>
+            <div class="b-six"></div>
+            <div class="b-seven"></div>
+            <div class="b-eight"></div>
+            <div class="b-nine"></div>
+            <div class="b-ten"></div>
+            <div class="b-eleven"></div>
+            <div class="b-twelve"></div>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="d-flex justify-content-center m-5">Rotate Animation </h3>
+      <div class="square-a container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="s-one"></div>
+            <div class="s-two"></div>
+            <div class="s-three"></div>
+            <div class="s-four"></div>
+            <div class="s-five"></div>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="d-flex justify-content-center m-5">TranslateX Animation </h3>
+
+      <div class="product-1 w-25">
+        <div class="card px-lg-3 d-flex justify-content-center text-align-center align-items-center border-3 border-primary">
+          <img
+            src="https://m.media-amazon.com/images/I/71jG+e7roXL._AC_UL320_.jpg"
+            class="card-img-top"
+            alt="..." />
+            <div class="icons w-25 d-flex flex-column align-items-center animated-icons">
+              <div class="circle-i">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="circle-i">
+                <i class="fa-regular fa-eye "></i>
+              </div>
+              <div class="circle-i">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+            </div>
+          <div class="card-body">
+            <h5 class="card-title">
+              MacBook Pro 14" M1<sub>PRO</sub> Space Gray
+            </h5>
+            <p class="card-text d-none d-md-block">
+              10 Çekirdekli CPU<br />
+              16 çekirdekli GPU<br />
+              16 GB Birleşik Bellek<br />
+              512 GB SSD Depolama¹
+            </p>
+            <p class="card-text fs-4 fw-semibold">51.999,00 TL</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted d-none d-md-block my-2">
+              KDV ve yasal ücretler dahildir: yaklaşık 9.452,00 TL.*
+            </small>
+            <a href="#" class=""> 17.333,00 TL x 3 aya kadar taksit </a>
+
+
+            <a href="#" class="btn btn-lg fs-6 btn-primary d-block mt-3">
+              Sepete Ekle
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+  </main>
+</body>
+
+</html>

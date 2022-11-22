@@ -1,0 +1,51 @@
+// Cards
+// -------------------------
+$card-spacer-y: 0;
+$card-spacer-x: $spacer * 0.5;
+$card-title-spacer-y: $spacer * 0.5;
+$card-border-width: 2px;
+$card-border-color: transparent;
+$card-border-radius: $border-radius;
+$card-box-shadow: null;
+$card-inner-border-radius: 0;
+$card-cap-padding-y: 0;
+$card-cap-padding-x: $card-spacer-x;
+$card-cap-bg: null;
+$card-cap-color: null;
+$card-height: null;
+$card-color: null;
+$card-bg: transparent;
+$card-img-overlay-padding: $spacer;
+$card-group-margin: 0;
+
+// Dropdowns
+// -------------------------
+$dropdown-min-width: 16rem;
+$dropdown-padding-x: 0;
+$dropdown-padding-y: 0;
+$dropdown-spacer: 0.125rem;
+$dropdown-font-size: $font-size-base;
+$dropdown-color: transparent;
+$dropdown-bg: $light;
+
+// Navbar
+// -------------------------
+$navbar-nav-link-padding-x: $spacer * 1.25;
+$navbar-toggler-font-size: $font-size-base * 1.6;
+$navbar-toggler-focus-width: 0;
+$navbar-light-toggler-border-color: transparent;
+$navbar-light-color: rgba($primary, 0.85);
+$navbar-light-hover-color: rgba($primary, 1);
+$navbar-light-active-color: rgba($secondary, 1);
+$navbar-light-disabled-color: rgba($primary, 0.3);
+
+// Navs
+// -------------------------
+$nav-tabs-border-color: rgba($primary, 0.4);
+$nav-tabs-border-width: $border-width;
+$nav-tabs-border-radius: $border-radius;
+$nav-link-transition: color 0.35s cubic-bezier(0.65, 0, 0.35, 1),
+  border-color 0.35s cubic-bezier(0.65, 0, 0.35, 1);
+
+// Forms
+// -------------------------

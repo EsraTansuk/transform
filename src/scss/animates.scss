@@ -1,0 +1,217 @@
+@keyframes ltr {
+  // 0sn
+  0% {
+    transform: translateX(-100%);
+  }
+  // 0.25sn
+  50% {
+    transform: translateX(0);
+  }
+  // 0.5sn
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes ltr-easeInBounce {
+  0% {
+    transform: translateX(0%);
+  }
+
+  4% {
+    transform: translateX(-1.54%);
+  }
+
+  8% {
+    transform: translateX(-0.66%);
+  }
+
+  18% {
+    transform: translateX(-6.25%);
+  }
+
+  26% {
+    transform: translateX(-1.63%);
+  }
+
+  46% {
+    transform: translateX(-24.98%);
+  }
+
+  64% {
+    transform: translateX(-1.99%);
+  }
+
+  76% {
+    transform: translateX(-56.44%);
+  }
+
+  88% {
+    transform: translateX(-89.11%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes ttb-easeInBounce {
+  0% {
+    transform: translateY(0%);
+  }
+
+  4% {
+    transform: translateY(-1.54%);
+  }
+
+  8% {
+    transform: translateY(-0.66%);
+  }
+
+  18% {
+    transform: translateY(-6.25%);
+  }
+
+  26% {
+    transform: translateY(-1.63%);
+  }
+
+  46% {
+    transform: translateY(-24.98%);
+  }
+
+  64% {
+    transform: translateY(-1.99%);
+  }
+
+  76% {
+    transform: translateY(-56.44%);
+  }
+
+  88% {
+    transform: translateY(-89.11%);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes ltr-easeInOutBounce {
+  0% {
+    transform: translateX(0%);
+  }
+
+  2% {
+    transform: translateX(-0.77%);
+  }
+
+  4% {
+    transform: translateX(-0.33%);
+  }
+
+  10% {
+    transform: translateX(-3%);
+  }
+
+  14% {
+    transform: translateX(-0.98%);
+  }
+
+  22% {
+    transform: translateX(-12.42%);
+  }
+
+  32% {
+    transform: translateX(-1%);
+  }
+
+  42% {
+    transform: translateX(-40.32%);
+  }
+
+  50% {
+    transform: translateX(-50%);
+  }
+
+  58% {
+    transform: translateX(-59.68%);
+  }
+
+  68% {
+    transform: translateX(-99.01%);
+  }
+
+  78% {
+    transform: translateX(-87.58%);
+  }
+
+  86% {
+    transform: translateX(-99.02%);
+  }
+
+  90% {
+    transform: translateX(-97%);
+  }
+
+  96% {
+    transform: translateX(-99.67%);
+  }
+
+  98% {
+    transform: translateX(-99.23%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes btt-easeOutElastic {
+  0% {
+    transform: translateY(0%);
+  }
+
+  16% {
+    transform: translateY(-132.27%);
+  }
+
+  28% {
+    transform: translateY(-86.88%);
+  }
+
+  44% {
+    transform: translateY(-104.63%);
+  }
+
+  59% {
+    transform: translateY(-98.36%);
+  }
+
+  73% {
+    transform: translateY(-100.58%);
+  }
+
+  88% {
+    transform: translateY(-99.8%);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes card-hover-animation {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-ltr {
+  animation: ltr-easeInBounce 2.5s;
+  // ease = ivme
+}

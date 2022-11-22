@@ -1,0 +1,42 @@
+header.header {
+  .navbar {
+    // @extend .bg-primary;
+    background-color: darken($primary, 10%);
+    @extend .navbar-dark;
+
+    &-collapse {
+      background-color: $light;
+    }
+
+    .nav-link {
+      color: rgba($primary, 0.8);
+
+      &:hover {
+        color: rgba($primary, 0.95);
+      }
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    .navbar {
+      background-color: $light;
+      .nav-link {
+        color: rgba($primary, 0.8);
+
+        &:hover {
+          color: rgba($primary, 0.95);
+        }
+      }
+
+      &-buttons {
+        background-color: transparent;
+      }
+    }
+  }
+
+  .logo {
+    font-family: $font-family-handwritten;
+    font-size: 2.5rem;
+    @extend .text-decoration-none;
+  }
+}
